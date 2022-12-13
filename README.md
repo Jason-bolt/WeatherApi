@@ -10,14 +10,21 @@ When the GET request is called, the API fetches data from the incidents table of
 
 With the POST request, the user must send a body along with the request, preferrably in json format. The body sent by the user is then validated, top ensure the right values were sent. After validation, the body data is added to an [external weather api](https://openweathermap.org/current) to get the current weather. The current time and weather are added to the body data and sent to the database.
 
+<br />
+
 ## Technologies Used
 -   NodeJS
 -   Express
 -   PostgreSQL
 
-## Endpoints
-```
-GET http://localhost:3000/api/v1/incidents
+<br />
 
-POST http://localhost:3000/api/v1/report
+## Endpoints
+
+Note that all api endpoints are prefixed with `/api/v1/`
+
+```
+GET https://enyataapi.herokuapp.com/api/v1/incidents
+
+POST https://enyataapi.herokuapp.com/api/v1/report
 ```
