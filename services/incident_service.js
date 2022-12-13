@@ -11,10 +11,10 @@ class IncidentService {
         const incidents = await Incident.findAll({
             attributes: ['client_id', 'incident_desc', 'city', 'country', 'date', 'weather_report']
         })
-        console.log(incidents)
+        // console.log(incidents)
         return incidents
        } catch (err) {
-        console.log(err)
+        // console.log(err)
         return {error: err}
        }
     }
@@ -28,10 +28,10 @@ class IncidentService {
             report.weather_report = weather.data
 
             const incident = await Incident.create(report)
-            console.log(incident)
+            // console.log(incident)
             return incident
         } catch (err) {
-            console.log(err)
+            // console.log(err)
             return {error: err}
         }
     }
