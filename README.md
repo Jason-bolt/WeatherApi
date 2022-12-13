@@ -14,3 +14,10 @@ With the POST request, the user must send a body along with the request, preferr
 -   NodeJS
 -   Express
 -   PostgreSQL
+
+## Endpoints
+```
+GET http://localhost:3000/api/v1/incidents
+
+POST http://localhost:3000/api/v1/report
+```
