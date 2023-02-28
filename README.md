@@ -32,7 +32,7 @@ You are however supposed to provide a `database URI`, `weather API key` and `POR
 
 <br />
 
-## Endpoints
+<!-- ## Endpoints
 
 Note that all api endpoints are prefixed with `/api/v1/`
 
@@ -40,4 +40,4 @@ Note that all api endpoints are prefixed with `/api/v1/`
 GET https://enyataapi.herokuapp.com/api/v1/incidents
 
 POST https://enyataapi.herokuapp.com/api/v1/report
-```
+``` -->
